@@ -33,10 +33,11 @@ Perform hyperparameter tuning on best chosen model.
 
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
 
-	model	   	 names		time		presets		score
-0	initial		 first_model	time = 400	best_quality	1.79450
-1	add_features 	 second_model	time = 600	best_quality	1.33318
-2	hpo		 third_model	time = 500	best_quality	1.30572
+|model|names|time|presets|score|
+|--|--|--|--|--|
+|initial|first_model|400|best_quality|1.79450|
+|add_features|second_model|600s|best_quality|1.33318|
+|hpo|third_model|500s|best_quality|1.30572|
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
