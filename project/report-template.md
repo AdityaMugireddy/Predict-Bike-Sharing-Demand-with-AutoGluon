@@ -42,11 +42,11 @@ Perform hyperparameter tuning on best chosen model.
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
 
-![model_train_score.png](model_train_score.png)
+![model_train_score.png](https://github.com/AdityaMugireddy/Predict-Bike-Sharing-Demand-with-AutoGluon/blob/main/model_train_score.png)
 
 ### Create a line plot showing the top kaggle score for the three (or more) prediction submissions during the project.
 
-![model_test_score.png](model_test_score.png)
+![model_test_score.png](https://github.com/AdityaMugireddy/Predict-Bike-Sharing-Demand-with-AutoGluon/blob/main/model_train_score.png)
 
 ## Summary
 This project required me to solve a regression problem in order to forecast bike sharing demand based on previous data. AutoGluon was utilised as the framework. The original model was generated with the default predictor, and it performs poorly. Exploratory Data Analysis was used to assign the correct data types to the features, and feature engineering was used to construct new features based on the date and time. The model's performance has significantly improved as a result of the added features. Hyper parameter tuning is also used to boost performance, but it has yet to produce superior results. The final submission was made to Kaggle, where it received a kaggle score of 1.30572. The model with new characteristics outperforms the previous model.
